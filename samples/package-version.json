@@ -1,5 +1,14 @@
 {
-	"button":"Button-1.1.zip",
-	"errorDiv":"ErrorDiv-1.0.zip",
-	"toolbar":"ToolBar-1.0.zip"
+    "button": {
+        "latest": "Button-1.1.zip",
+        "versions": ["Button-1.0.zip", "Button-1.1.zip"]
+    },
+    "errorDiv":{
+        "latest": "ErrorDiv-1.0.zip",
+        "versions": ["ErrorDiv-1.0.zip"]
+    },
+    "toolbar": {
+        "latest": "Toolbar-1.0.zip",
+        "versions": ["Toolbar-1.0.zip"]
+    }
 }

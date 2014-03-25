@@ -1,14 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var exec = require('child_process').exec;
-
-var applyTemplate = function(template,dictionary){
-    var result = template;
-    for(var key in dictionary){
-        result = result.replace(new RegExp(key,'g'),dictionary[key]);
-    }
-    return result;
-};
+var template = require('./template');
 
 var start = function (packageName) {
     var latestVersion = getLatestVersion(packageName);
@@ -23,7 +16,7 @@ var getLatestVersion = function (packageName) {
         });
         response.on('end', function () {
             var latestPackage = JSON.parse(data)[packageName];
-            downloadPackage(latestPackage);
+            downloadPackage(latestPackage['latest']);
         });
     };
     var request = http.get("http://10.4.33.146:8080/package-version.json", onResponse);
@@ -39,7 +32,7 @@ var downloadPackage = function (package) {
 
 var extractZip = function (zipFile) {
     var unzipCmd = "unzip -qod ikebana_modules ZIP & rm ZIP";
-    unzipCmd = applyTemplate(unzipCmd,{ZIP:zipFile});
+    unzipCmd = template.applyTemplate(unzipCmd, {ZIP: zipFile});
     exec(unzipCmd);
 }
 
