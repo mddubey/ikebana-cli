@@ -2,7 +2,7 @@
     "button": {
         "latest": {
             "name":"Button-1.1.zip",
-            "dependencies":["Div-1.0.zip","Font-1.2.zip"]
+            "dependencies":["Div-1.0.zip"]
         },
         "versions": ["Button-1.0.zip", "Button-1.1.zip"]
     },
@@ -30,8 +30,15 @@
     "font":{
         "latest":{
             "name":"Font-1.2.zip",
-            "dependencies":[]
+            "dependencies":["Color-1.0.zip"]
         },
         "versions": ["Font-1.2.zip"]
+    },
+    "color":{
+        "latest":{
+            "name":"Color-1.0.zip",
+            "dependencies":[]
+        },
+        "versions": ["Color-1.0.zip"]
     }
 }
