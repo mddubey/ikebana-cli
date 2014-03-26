@@ -7,8 +7,8 @@
         "latest": "ErrorDiv-1.0.zip",
         "versions": ["ErrorDiv-1.0.zip"]
     },
-    "toolbar": {
-        "latest": "Toolbar-1.0.zip",
-        "versions": ["Toolbar-1.0.zip"]
+    "menubar": {
+        "latest": "MenuBar-2.0.zip",
+        "versions": ["MenuBar-2.0.zip"]
     }
 }
