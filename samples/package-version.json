@@ -1,14 +1,37 @@
 {
     "button": {
-        "latest": "Button-1.1.zip",
+        "latest": {
+            "name":"Button-1.1.zip",
+            "dependencies":["Div-1.0.zip","Font-1.2.zip"]
+        },
         "versions": ["Button-1.0.zip", "Button-1.1.zip"]
     },
     "errorDiv":{
-        "latest": "ErrorDiv-1.0.zip",
+        "latest": {
+            "name":"ErrorDiv-1.1.zip",
+            "dependencies":["Div-1.0.zip","Font-1.2.zip"]
+        },
         "versions": ["ErrorDiv-1.0.zip"]
     },
     "menubar": {
-        "latest": "MenuBar-2.0.zip",
+        "latest": {
+            "name":"Menu-2.0.zip",
+            "dependencies":[]
+        },
         "versions": ["MenuBar-2.0.zip"]
+    },
+    "div":{
+        "latest":{
+            "name":"Div-1.0.zip",
+            "dependencies":["Font-1.2.zip"]
+        },
+        "versions": ["Div-1.0.zip"]
+    },
+    "font":{
+        "latest":{
+            "name":"Font-1.2.zip",
+            "dependencies":[]
+        },
+        "versions": ["Font-1.2.zip"]
     }
 }
