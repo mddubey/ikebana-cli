@@ -6,16 +6,16 @@
         },
         "versions": ["Button-1.0.zip", "Button-1.1.zip"]
     },
-    "errorDiv":{
+    "errordiv":{
         "latest": {
-            "name":"ErrorDiv-1.1.zip",
+            "name":"ErrorDiv-1.0.zip",
             "dependencies":["Div-1.0.zip","Font-1.2.zip"]
         },
         "versions": ["ErrorDiv-1.0.zip"]
     },
     "menubar": {
         "latest": {
-            "name":"Menu-2.0.zip",
+            "name":"MenuBar-2.0.zip",
             "dependencies":[]
         },
         "versions": ["MenuBar-2.0.zip"]
