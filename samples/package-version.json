@@ -9,7 +9,7 @@
     "errordiv":{
         "latest": {
             "name":"ErrorDiv-1.0.zip",
-            "dependencies":["Div-1.0.zip","Font-1.2.zip"]
+            "dependencies":["Div-1.0.zip"]
         },
         "versions": ["ErrorDiv-1.0.zip"]
     },
