@@ -1,0 +1,7 @@
+{
+    "name": "ikebana-cli",
+    "devDependencies": {
+        "jsmockito": "*",
+        "mocha": "*"
+    }
+}

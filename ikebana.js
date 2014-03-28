@@ -1,4 +1,4 @@
-var inputParser = require('./lib/user-input');
+var inputParser = require('./lib/user-input').userInput;
 var main = function (argv) {
     try{
         var userInput = inputParser.parseInput(argv.slice(2));
