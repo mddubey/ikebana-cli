@@ -62,7 +62,7 @@ describe('InputParser', function () {
             var input = {task: 'install', packageInfo: 'toolbar'};
             userInput.installer = mockInstaller;
             userInput.processInput(input);
-            mockito.verify(mockInstaller,mockito.Verifiers.once()).installPackage('toolbar');
+            mockito.verify(mockInstaller,mockito.Verifiers.once()).install('toolbar');
         })
     })
 });

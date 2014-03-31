@@ -40,5 +40,20 @@
             "dependencies":[]
         },
         "versions": ["Color-1.0.zip"]
+    },
+    "optimist":{
+        "latest":{
+            "name":"Optimist-1.2.zip",
+            "dependencies":["Tar-1.5.zip"]
+        },
+        "versions": ["Optimist-1.2.zip"]
+    },
+    "tar":{
+        "latest":{
+            "name":"Tar-1.5.zip",
+            "dependencies":[]
+        },
+        "versions": ["Tar-1.5.zip"]
     }
+
 }

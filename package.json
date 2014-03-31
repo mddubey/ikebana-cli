@@ -3,5 +3,8 @@
     "devDependencies": {
         "jsmockito": "*",
         "mocha": "*"
+    },
+    "scripts":{
+        "install":"npm install -g mocha"
     }
 }
